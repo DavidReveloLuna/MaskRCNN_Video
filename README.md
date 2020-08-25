@@ -19,7 +19,6 @@ Prepararemos un entorno con python 3.7.7, Tensorflow 2.1.0 y keras 2.3.1
     $ pip install jupyter
     $ pip install keras
     $ pip install numpy scipy Pillow cython matplotlib scikit-image opencv-python h5py imgaug IPython[all]
-    $ conda install -c anaconda cudatoolkit
     
 ## Instalar MaskRCNN
 
