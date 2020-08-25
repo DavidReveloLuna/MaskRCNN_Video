@@ -14,8 +14,8 @@ Prepararemos un entorno con python 3.7.7, Tensorflow 2.1.0 y keras 2.3.1
     $ conda activate MaskRCNN
     $ conda install ipykernel
     $ python -m ipykernel install --user --name MaskRCNN --display-name "MaskRCNN"
-    $ pip install tensorflow-gpu
-    $ pip install tensorflow==2.1
+    $ conda install tensorflow-gpu==2.1.0 cudatoolkit=10.1
+    $ pip install tensorflow==2.1.0
     $ pip install jupyter
     $ pip install keras
     $ pip install numpy scipy Pillow cython matplotlib scikit-image opencv-python h5py imgaug IPython[all]
