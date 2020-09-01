@@ -165,7 +165,8 @@ def display_instances(image, boxes, masks, class_ids, class_names,
     ax.imshow(masked_image.astype(np.uint8))
     if auto_show:
         plt.show()
-        plt.savefig(f"Output/{title}", bbox_inches="tight", pad_inches=0.0)
+        if title!="":
+            plt.savefig(f"Output/{title}", bbox_inches="tight", pad_inches=0.0)
 
 
 def display_differences(image,
