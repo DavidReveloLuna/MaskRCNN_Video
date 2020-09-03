@@ -43,7 +43,7 @@ Prepararemos un entorno con python 3.7.7, Tensorflow 2.1.0 y keras 2.3.1
     $ python videomask.py
     
 # Entrenamiento con custom-dataset
-    - Etiquetar el data set con la herramienta [VIA v1.0]http://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.0.html (Hacerlo con la versión 1.0.0)
+    - Etiquetar el data set con la herramienta [VIA v1.0](http://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.0.html) (Hacerlo con la versión 1.0.0)
     - Guardar los datos de validación y entrenamiento en carpetas con nombre train y val
     - Guardar las anotaciones de los dos grupos de datos con el nombre: via_region_data.json
     - Ejeccutar en google colab el archivo Casco.ipynb.
