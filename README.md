@@ -48,6 +48,30 @@ Prepararemos un entorno con python 3.7.7, Tensorflow 2.1.0 y keras 2.3.1
 -   Guardar las anotaciones de los dos grupos de datos con el nombre: via_region_data.json
 -   Ejeccutar en google colab el archivo Casco.ipynb.
 
+## Prueba del modelo entrenado con custom-dataset
+
+-   PARA PRUEBA DEL SISTEMA CON IMÁGENES:
+    
+    Modificar los parámetros 
+    
+    -   model_filename = "mask_rcnn_casco_0050.h5" # Aquí deben cargar el modelo entrenado con su dataset
+    -   class_names = ['BG', 'casco'] # Las clases relacionadas con su modelo BG + clases custom
+    -   min_confidence = 0.6 # Nivel mínimo de confianza para aceptar un hallazgo como positivo
+    
+    $ python casco.py
+        
+-   PARA PRUEBA DEL SISTEMA EN VIDEO:
+
+    Modificar los parámetros 
+    
+    -   model_filename = "mask_rcnn_casco_0050.h5" # Aquí deben cargar el modelo entrenado con su dataset
+    -   class_names = ['BG', 'casco'] # Las clases relacionadas con su modelo BG + clases custom
+    -   min_confidence = 0.6 # Nivel mínimo de confianza para aceptar un hallazgo como positivo
+    -   camera = cv2.VideoCapture(0) # Si desean correr webcam
+    -   camera = cv2.VideoCapture("video.mp4") # Si desean correr un video cargandolo desde su PC
+    
+    $ python cascoVideo.py
+
 # Agradecimientos
 
     Matterport, Inc
