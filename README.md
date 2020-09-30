@@ -71,7 +71,13 @@ Prepararemos un entorno con python 3.7.7, Tensorflow 2.1.0 y keras 2.3.1
     -   camera = cv2.VideoCapture("video.mp4") # Si desean correr un video cargandolo desde su PC
     
     $ python cascoVideo.py
+    
 
+ 
+## Entrenamiento multiclases custom dataset
+
+ -   CustomClasses.ipynb
+ 
 # Agradecimientos
 
     Matterport, Inc
