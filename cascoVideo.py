@@ -22,8 +22,8 @@ model_filename = "mask_rcnn_casco_0050.h5"
 class_names = ['BG', 'casco']
 min_confidence = 0.6
 
-#camera = cv2.VideoCapture(0)
-camera = cv2.VideoCapture("video4.mp4")
+#camera = cv2.VideoCapture(1)
+camera = cv2.VideoCapture("video.mp4")
 
 class CascoConfig(Config):
     """Configuration for training on the helmet  dataset.
