@@ -78,6 +78,10 @@ Prepararemos un entorno con python 3.7.7, Tensorflow 2.1.0 y keras 2.3.1
 
  -   CustomClasses.ipynb
  
+## IoU Intersection over Union
+
+-   IoUTest.ipynb
+ 
 # Agradecimientos
 
     Matterport, Inc
