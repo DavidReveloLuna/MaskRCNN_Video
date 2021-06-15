@@ -91,4 +91,4 @@ Prepararemos un entorno con python 3.7.7, Tensorflow 2.1.0 y keras 2.3.1
     https://github.com/akTwelve
 
 # **Canal de Youtube**
-[Tutoriales en Youtube](https://www.youtube.com/channel/UCr_dJOULDvSXMHA1PSHy2rg)
+[Click aquì pare ver mi canal de YOUTUBE](https://www.youtube.com/channel/UCr_dJOULDvSXMHA1PSHy2rg)
